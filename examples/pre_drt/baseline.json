@@ -1,0 +1,175 @@
+{
+  "example_notice": "Synthetic arithmetic example; not research data or a complete simulation input",
+  "runParameters": {
+    "--seed": 42,
+    "--n_agents": 5
+  },
+  "agents": [
+    {
+      "id": 1,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 10,
+              "timeMinute": 20,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 10,
+              "timeMinute": 20,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "PUBLIC_TRANSIT",
+              "distanceKilometer": 8,
+              "timeMinute": 30,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK"
+            },
+            {
+              "type": "Trip",
+              "mode": "PUBLIC_TRANSIT",
+              "distanceKilometer": 8,
+              "timeMinute": 30,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_PASSENGER",
+              "distanceKilometer": 8,
+              "timeMinute": 20,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 8,
+              "timeMinute": 20,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 5,
+              "timeMinute": 10,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 5,
+              "timeMinute": 10,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

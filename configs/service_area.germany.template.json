@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "name": "REPLACE with your German study area",
+  "coordinate_system": "EPSG:4326",
+  "illustrative": false,
+  "assignment_metric": "local_km_l1",
+  "mean_latitude": null,
+  "centers": {
+    "DJ_SW": [
+      null,
+      null
+    ],
+    "DJ_SE": [
+      null,
+      null
+    ],
+    "DJ_NW": [
+      null,
+      null
+    ],
+    "DJ_NE": [
+      null,
+      null
+    ],
+    "SJ_S": [
+      null,
+      null
+    ],
+    "SJ_N": [
+      null,
+      null
+    ]
+  },
+  "groups": [
+    {
+      "name": "Study-area rectangle",
+      "bounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "regions": [
+        "DJ_SW",
+        "DJ_SE",
+        "DJ_NW",
+        "DJ_NE",
+        "SJ_S",
+        "SJ_N"
+      ]
+    }
+  ]
+}

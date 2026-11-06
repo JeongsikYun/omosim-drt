@@ -1,0 +1,163 @@
+{
+  "example_notice": "Synthetic arithmetic example; not research data or a complete simulation input",
+  "runParameters": {
+    "--seed": 42,
+    "--n_agents": 5
+  },
+  "agents": [
+    {
+      "id": 1,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME_OFFICE"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "PUBLIC_TRANSIT",
+              "distanceKilometer": 2,
+              "timeMinute": 10,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "SHARED_OFFICE"
+            },
+            {
+              "type": "Trip",
+              "mode": "PUBLIC_TRANSIT",
+              "distanceKilometer": 2,
+              "timeMinute": 10,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_PASSENGER",
+              "distanceKilometer": 8,
+              "timeMinute": 20,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 8,
+              "timeMinute": 20,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME_OFFICE"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 3,
+              "timeMinute": 8,
+              "legID": 1,
+              "startTime": "08:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "SHARED_OFFICE"
+            },
+            {
+              "type": "Trip",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 3,
+              "timeMinute": 8,
+              "legID": 2,
+              "startTime": "17:00"
+            },
+            {
+              "type": "Activity",
+              "activityType": "HOME"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

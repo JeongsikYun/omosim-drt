@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "name": "Illustrative German coordinates - software test only",
+  "coordinate_system": "EPSG:4326",
+  "illustrative": true,
+  "assignment_metric": "local_km_l1",
+  "mean_latitude": 50.05,
+  "centers": {
+    "DJ_SW": [
+      50.02,
+      8.52
+    ],
+    "DJ_SE": [
+      50.02,
+      8.58
+    ],
+    "DJ_NW": [
+      50.05,
+      8.52
+    ],
+    "DJ_NE": [
+      50.05,
+      8.58
+    ],
+    "SJ_S": [
+      50.08,
+      8.52
+    ],
+    "SJ_N": [
+      50.08,
+      8.58
+    ]
+  },
+  "groups": [
+    {
+      "name": "Illustrative rectangle",
+      "bounds": [
+        50.0,
+        8.5,
+        50.1,
+        8.6
+      ],
+      "regions": [
+        "DJ_SW",
+        "DJ_SE",
+        "DJ_NW",
+        "DJ_NE",
+        "SJ_S",
+        "SJ_N"
+      ]
+    }
+  ]
+}

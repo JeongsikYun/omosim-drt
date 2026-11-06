@@ -1,0 +1,192 @@
+{
+  "synthetic": true,
+  "notice": "Software example, not German demand data or full OMOSIM calibration",
+  "agents": [
+    {
+      "id": 1,
+      "drtLike": 0.8,
+      "mobilityGroup": "CAR_USER",
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME",
+              "lat": 50.02,
+              "lon": 8.52,
+              "startTime": "00:00"
+            },
+            {
+              "type": "Trip",
+              "legID": 1,
+              "startTime": "08:00",
+              "mode": "CAR_DRIVER",
+              "distanceKilometer": 3.5,
+              "timeMinute": 12.0,
+              "alternativeModes": [
+                {
+                  "mode": "CAR_DRIVER",
+                  "distanceKilometer": 3.5,
+                  "timeMinute": 12.0,
+                  "selected": true
+                },
+                {
+                  "mode": "PUBLIC_TRANSIT",
+                  "distanceKilometer": 4.0,
+                  "timeMinute": 40.0,
+                  "selected": false
+                },
+                {
+                  "mode": "FOOT",
+                  "distanceKilometer": 3.2,
+                  "timeMinute": 45.0,
+                  "selected": false
+                },
+                {
+                  "mode": "BICYCLE",
+                  "distanceKilometer": 3.3,
+                  "timeMinute": 18.0,
+                  "selected": false
+                }
+              ]
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK",
+              "lat": 50.05,
+              "lon": 8.52,
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "drtLike": 0.8,
+      "mobilityGroup": "NON_CAR_USER",
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME",
+              "lat": 50.02,
+              "lon": 8.52,
+              "startTime": "00:00"
+            },
+            {
+              "type": "Trip",
+              "legID": 1,
+              "startTime": "08:03",
+              "mode": "PUBLIC_TRANSIT",
+              "distanceKilometer": 4.0,
+              "timeMinute": 40.0,
+              "alternativeModes": [
+                {
+                  "mode": "CAR_DRIVER",
+                  "distanceKilometer": 3.5,
+                  "timeMinute": 12.0,
+                  "selected": false
+                },
+                {
+                  "mode": "PUBLIC_TRANSIT",
+                  "distanceKilometer": 4.0,
+                  "timeMinute": 40.0,
+                  "selected": true
+                },
+                {
+                  "mode": "FOOT",
+                  "distanceKilometer": 3.2,
+                  "timeMinute": 45.0,
+                  "selected": false
+                },
+                {
+                  "mode": "BICYCLE",
+                  "distanceKilometer": 3.3,
+                  "timeMinute": 18.0,
+                  "selected": false
+                }
+              ]
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK",
+              "lat": 50.05,
+              "lon": 8.52,
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "drtLike": 0.8,
+      "mobilityGroup": "NON_CAR_USER",
+      "mobilityDemand": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "type": "Activity",
+              "activityType": "HOME",
+              "lat": 50.02,
+              "lon": 8.52,
+              "startTime": "00:00"
+            },
+            {
+              "type": "Trip",
+              "legID": 1,
+              "startTime": "08:04",
+              "mode": "CAR_PASSENGER",
+              "distanceKilometer": 3.5,
+              "timeMinute": 12,
+              "alternativeModes": [
+                {
+                  "mode": "CAR_DRIVER",
+                  "distanceKilometer": 3.5,
+                  "timeMinute": 12.0,
+                  "selected": false
+                },
+                {
+                  "mode": "PUBLIC_TRANSIT",
+                  "distanceKilometer": 4.0,
+                  "timeMinute": 40.0,
+                  "selected": false
+                },
+                {
+                  "mode": "FOOT",
+                  "distanceKilometer": 3.2,
+                  "timeMinute": 45.0,
+                  "selected": false
+                },
+                {
+                  "mode": "BICYCLE",
+                  "distanceKilometer": 3.3,
+                  "timeMinute": 18.0,
+                  "selected": false
+                },
+                {
+                  "mode": "CAR_PASSENGER",
+                  "distanceKilometer": 3.5,
+                  "timeMinute": 12,
+                  "selected": true
+                }
+              ]
+            },
+            {
+              "type": "Activity",
+              "activityType": "WORK",
+              "lat": 50.05,
+              "lon": 8.52,
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-06",
+  "environment": {
+    "platform": "Linux",
+    "python": "3.12.3",
+    "aiohttp": "3.13.5"
+  },
+  "checks": [
+    {
+      "name": "Geographic adapter and preflight tests",
+      "result": "passed",
+      "details": "5 tests; configured Korean mapping matches reference on 3,004 points; invalid/unfilled configuration rejected."
+    },
+    {
+      "name": "Existing passenger-choice boundary tests",
+      "command": "python scripts/test_choice_rules.py",
+      "result": "passed"
+    },
+    {
+      "name": "Existing OD cache tests",
+      "command": "python scripts/test_travel_cache.py",
+      "result": "passed"
+    },
+    {
+      "name": "Existing quality/portfolio tests",
+      "command": "python scripts/test_quality_portfolio.py",
+      "result": "passed"
+    },
+    {
+      "name": "Relocated release full-pipeline check",
+      "command": "python scripts/smoke_test.py",
+      "result": "passed",
+      "details": "Run from a temporary copied package. Three synthetic agents, one excluded, two requests, two final DRT choices, zero Stage2 errors, four report tables."
+    },
+    {
+      "name": "Relocated pre-DRT analyzer",
+      "result": "passed",
+      "details": "Synthetic Baseline/WFH/SO/WFH+SO examples."
+    },
+    {
+      "name": "Extracted KPI calculation fidelity",
+      "result": "passed",
+      "details": "AST comparison: all 23 extracted functions/classes match original source."
+    },
+    {
+      "name": "Original working-file preservation",
+      "result": "passed",
+      "details": "SHA256 recheck of 23 recorded source/instruction/dependency files found no changes."
+    },
+    {
+      "name": "Core copy review",
+      "result": "passed",
+      "details": "Among imported core files, only regions.py and travel.py differ; changes are documented in RELEASE_CHANGES.md."
+    }
+  ],
+  "limitations": [
+    "No real German demand or German GraphHopper/OSM routing run was performed.",
+    "Synthetic OD values test software integration only; they are not empirical travel estimates.",
+    "Linux/Python 3.12.3 was checked locally; other platforms were not checked.",
+    "GitHub Actions configuration is included but has not run on GitHub.",
+    "No production simulation, production routing process or production cache was modified by preparation."
+  ]
+}

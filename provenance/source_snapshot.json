@@ -1,0 +1,29 @@
+{
+  "snapshot_date": "2026-11-06",
+  "source_git_head": "6ee2507b22ff22dbbec0cfa6dd7fd3857519d814",
+  "source_state": "Working-tree snapshot, including local modifications. Not identical to the historical runtime-v2-default tag.",
+  "original_source_sha256": {
+    "drt_pipeline/__init__.py": "e23db048945c6d9dd758c0d7effcdd00f929148a6dc575b5dcc4d05e33c77183",
+    "drt_pipeline/alns_sa.py": "091dba8dc54af388fae6038f7c1fd14a6d8153e8a5d21c66c6abcc3114dbf3ad",
+    "drt_pipeline/choice_rules.py": "aa105967ce2a9746215c1b33d971581cfce03d6dfdde11e863df1964fbe8f7d6",
+    "drt_pipeline/constants.py": "57d49b6fe248d9d7d8690aec5f12edeced218a166da7000af79b331863cde0c1",
+    "drt_pipeline/fleet.py": "ff3583162baa10cd18169e35da9c693d94bc8cfcc37ab256feae46fd736ca180",
+    "drt_pipeline/io_utils.py": "96ff36189a0f6602cfab5d3f22571b7615b950ddfb3c1ac3efa80ceea01f7f39",
+    "drt_pipeline/regions.py": "fcd839da1f1c07494e5d46708af294999e5e8029de5576cc552e8c6872510bf7",
+    "drt_pipeline/simulate.py": "05b578e980e2319ee6833af7de1dd4b044d1d108d0f5d8128b362426cdbee448",
+    "drt_pipeline/stage0.py": "4f4d31738e1545bcbe6a226ce9ebd836adb97707208711b1afecf7a340db4220",
+    "drt_pipeline/stage12.py": "398b5c605a028c0ccb61cfe09de69ed52b3b946b1e6f484237fb18a91c079b9b",
+    "drt_pipeline/travel.py": "adf546892b819c03e420079b93231afe66e3dbb194e8a8ef5d9ab271ec19473d",
+    "drt_pipeline/batch_pool.py": "6cb939f8bbfdde360855fabb2357c686d62f6758ded840a163db6c78289a9f9c",
+    "scripts/run_pipeline_iterations.py": "9fec005dee7b0378689d782ad2dc699d39c998423d271a7cd508792edf20f6ed",
+    "scripts/run_stage12.py": "0a09e2139efce7bc8cb144c27e6076d64cc0200010d74a70e23cb96e46415e31",
+    "scripts/build_od_cache.py": "7254d0b96ad6afd6149b50372dd2f4761d9f958df654216fc51a043ac3989572",
+    "scripts/test_choice_rules.py": "ac3d9b73f774dbb5705c992134c8e520ceab38cb8a501a84b4a10d024d245508",
+    "scripts/test_travel_cache.py": "3d353c3c6f2a150b1522d2179b65f5a9d6d52092199a904076aec6bb556c61d7",
+    "scripts/test_quality_portfolio.py": "7be36ea984b3a059125b214e80a356361d300f69b73fc7c34b98ea4986df7312"
+  },
+  "extracted_analysis_source": {
+    "path": "scripts/generate_actual15_8scenario_report.py",
+    "sha256": "26fbb94b440fbdd23b5a5226792b167a89c3635e6fb1da4fc582373bbfd5634d"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "name": "Daejeon and Sejong reference",
+  "coordinate_system": "EPSG:4326",
+  "illustrative": false,
+  "assignment_metric": "legacy_degree_l1",
+  "mean_latitude": 36.46,
+  "centers": {
+    "DJ_SW": [
+      36.275,
+      127.32
+    ],
+    "DJ_SE": [
+      36.275,
+      127.46
+    ],
+    "DJ_NW": [
+      36.425,
+      127.32
+    ],
+    "DJ_NE": [
+      36.425,
+      127.46
+    ],
+    "SJ_S": [
+      36.4735,
+      127.2365
+    ],
+    "SJ_N": [
+      36.658,
+      127.2365
+    ]
+  },
+  "groups": [
+    {
+      "name": "Daejeon first",
+      "bounds": [
+        36.1831,
+        127.2466,
+        36.5,
+        127.5597
+      ],
+      "regions": [
+        "DJ_SW",
+        "DJ_SE",
+        "DJ_NW",
+        "DJ_NE"
+      ]
+    },
+    {
+      "name": "Sejong second",
+      "bounds": [
+        36.368,
+        127.065,
+        36.737,
+        127.4081
+      ],
+      "regions": [
+        "SJ_S",
+        "SJ_N"
+      ]
+    }
+  ]
+}

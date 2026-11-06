@@ -1,0 +1,33 @@
+# GraphHopper 8.0; acquire the JAR and OSM extract separately.
+graphhopper:
+  datareader.file: data/germany.osm.pbf
+  graph.location: data/graphhopper-graph
+  profiles:
+    - name: car
+      vehicle: car
+      custom_model:
+        distance_influence: 70
+  profiles_ch:
+    - profile: car
+  profiles_lm: []
+  prepare.min_network_size: 200
+  prepare.subnetworks.threads: 1
+  routing.non_ch.max_waypoint_distance: 1000000
+  import.osm.ignored_highways: footway,cycleway,path,pedestrian,steps
+  graph.dataaccess.default_type: RAM_STORE
+server:
+  max_threads: 128
+  application_connectors:
+    - type: http
+      port: 8989
+      bind_host: localhost
+      max_request_header_size: 50k
+  admin_connectors:
+    - type: http
+      port: 8990
+      bind_host: localhost
+  request_log:
+    appenders: []
+logging:
+  appenders:
+    - type: console

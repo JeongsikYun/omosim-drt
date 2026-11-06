@@ -1,0 +1,3 @@
+# Checked in the source environment with Python 3.12.3.
+# Used by the GraphHopper OD-cache builder; the solver itself uses stdlib.
+aiohttp==3.13.5
